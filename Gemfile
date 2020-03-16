@@ -3,7 +3,7 @@ ruby '~> 2.6.4'
 
 gem 'acts_as_api'
 gem 'addressable'
-gem 'administrate'
+gem 'administrate', '>= 0.13.0'
 gem 'appsignal'
 gem 'decent_exposure'
 gem 'dotenv-rails', require: 'dotenv/rails-now'
