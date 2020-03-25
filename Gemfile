@@ -53,6 +53,6 @@ group :development, :test do
   gem 'localer'
   gem 'rails-controller-testing'
   gem 'rspec-collection_matchers'
-  gem 'rspec-rails', '>= 3.9.0.pre'
+  gem 'rspec-rails', '>= 4.0.0'
   gem 'rubocop', '~> 0.75.0', require: false
 end
