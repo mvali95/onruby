@@ -18,7 +18,7 @@ gem 'pg', '1.1.4'
 gem 'public_suffix'
 gem 'puma'
 gem 'rack-cache'
-gem 'rails', '6.0.0.rc1'
+gem 'rails', '6.0.0'
 gem 'redcarpet'
 gem 'ri_cal'
 gem 'simple_form'
@@ -35,7 +35,7 @@ gem 'uglifier'
 group :production do
   gem 'dalli',            '~> 2.7.10'
   gem 'kgio',             '~> 2.11.1'
-  gem 'lograge',          '~> 0.11.0'
+  gem 'lograge', '~> 0.11.2'
   gem 'rails_12factor',   '~> 0.0.2'
 end
 
@@ -53,6 +53,6 @@ group :development, :test do
   gem 'localer'
   gem 'rails-controller-testing'
   gem 'rspec-collection_matchers'
-  gem 'rspec-rails', '>= 3.9.0.pre'
+  gem 'rspec-rails', '>= 4.0.0'
   gem 'rubocop', '~> 0.75.0', require: false
 end
