@@ -33,7 +33,7 @@ gem 'sass-rails'
 gem 'uglifier'
 
 group :production do
-  gem 'dalli',            '~> 2.7.10'
+  gem 'dalli',            '~> 3.2.3'
   gem 'kgio',             '~> 2.11.1'
   gem 'lograge',          '~> 0.11.0'
   gem 'rails_12factor',   '~> 0.0.2'
