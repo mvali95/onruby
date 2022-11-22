@@ -89,7 +89,7 @@ GEM
     concurrent-ruby (1.1.5)
     connection_pool (2.2.1)
     crass (1.0.5)
-    dalli (2.7.10)
+    dalli (3.2.3)
     datetime_picker_rails (0.0.7)
       momentjs-rails (>= 2.8.1)
     decent_exposure (3.0.2)
@@ -379,7 +379,7 @@ DEPENDENCIES
   appsignal
   bootstrap
   byebug
-  dalli (~> 2.7.10)
+  dalli (~> 3.2.3)
   decent_exposure
   dotenv-rails
   factory_bot_rails
